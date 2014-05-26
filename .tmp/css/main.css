@@ -1,0 +1,9 @@
+body {
+  color: black;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.less {
+  background-image: url("http://localhost:8000/images");
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzIjpbInB1YmxpYy9sZXNzL21haW4ubGVzcyIsIm1haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBQTtFQUNBLDZCQUFBO0VBQUEscUJBQUE7RUNDRDtBREVEO0VBQ0UsdURBQUE7RUNBRCJ9 */

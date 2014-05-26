@@ -1,0 +1,34 @@
+{
+  "name": "grunt-external-config",
+  "version": "0.0.1",
+  "description": "My configuration of grunt tasks in multiples files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BJR Matos",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "bower": "~1.3.3",
+    "matchdep": "~0.3.0",
+    "time-grunt": "~0.3.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-autoprefixer": "~0.7.3",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-less": "~0.11.0",
+    "grunt-contrib-stylus": "~0.16.0",
+    "grunt-concurrent": "~0.5.0",
+    "grunt-open": "~0.2.3",
+    "grunt-wait": "~0.1.0",
+    "grunt-newer": "~0.7.0",
+    "grunt-nodemon": "~0.2.1",
+    "grunt-node-inspector": "~0.1.5",
+    "load-grunt-configs": "~0.4.0"
+  }
+}
