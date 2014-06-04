@@ -6,8 +6,6 @@
   - REGISTER TASKS FOR TEST
     Refer: https://github.com/creynders/load-grunt-configs/tree/master/demos/3.by-type/config
 
-  - REGISTER NOTIFICATIONS
-
 **/
 
 module.exports = function(grunt) {
@@ -70,7 +68,7 @@ module.exports = function(grunt) {
     'uglify'
   ]);
 
-  grunt.registerTask('launch', ['wait', 'open']);
+  grunt.registerTask('launch', ['wait', 'open', 'notify:open']);
 
   /*==========  PRINCIPAL TASKS  ==========*/
 

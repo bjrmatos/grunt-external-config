@@ -3,17 +3,6 @@
 module.exports = function(grunt, options) {
   return {
     tasks: {
-      /*==========  JSHINT  ==========*/
-      jshint: {
-        all : {
-          src: [
-            'Gruntfile.js',
-            '<%= paths.jsSource %>/{,*/}*.js',
-            '!<%= paths.js %>/lib/*'
-          ]
-        }
-        //   'test/spec/{,*/}*.js'
-      },
 
       /*==========  LAUNCH - TASKS  ==========*/
       wait: {
@@ -33,11 +22,9 @@ module.exports = function(grunt, options) {
         }
       },
 
-      open: {
+      'open:server': {
         // open default browser in the url specified
-        server: {
-          path: options.domain
-        }
+        path: options.domain
       },
 
       /*==========  WATCH - TASKS  ==========*/
